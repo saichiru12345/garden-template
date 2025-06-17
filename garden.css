@@ -1,0 +1,461 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.garden {
+    background-image: url("garden.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+
+    justify-content: space-between;
+    padding: 10px 100px;
+    background-color: hsla(212, 11%, 73%, 0.589);
+    color: #fff;
+}
+
+.navbar-menu-items {
+    display: flex;
+    column-gap: 40px;
+}
+
+
+h3 {
+    text-transform: capitalize;
+    font-size: 20px;
+    margin: 0;
+    margin-left: 50px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+    padding: 0;
+    color: #fff;
+    margin-top: 10px;
+}
+
+a:hover {
+    color: #3f3e3e;
+}
+
+button {
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgb(248, 193, 90);
+    padding: 10px 20px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.button:hover {
+    background-color: rgb(250, 163, 3);
+}
+
+.button:active {
+    background-color: rgb(53, 228, 53);
+}
+
+.contact {
+    background-color:hsla(0, 10%, 94%, 0.795);
+    border: 1px solid rgba(231, 235, 225, 0.938);
+}
+
+.contact:hover {
+    background-color: orange;
+}
+
+.outdoor {
+    margin-left: 200px;
+    text-transform: capitalize;
+    color: #fff;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 5vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.source{
+   display:flex;
+  justify-content: space-between;
+   padding:80px;
+    background-color:whitesmoke
+}
+.image1{
+    background-color: grey;
+    border:1px solid #000;
+    border-radius: 40px;
+     margin-left: 40px;
+    
+}
+
+.image2{
+     color: grey;
+    border:1px solid #000;
+    border-radius: 40px;
+    margin-left: 30px;
+   
+}
+
+.image3{
+    background-color: grey;
+    border:1px solid #000;
+    border-radius: 40px;
+    margin-left: 40px;
+    
+}
+
+.image4{
+    background-color: grey;
+    border:1px solid #000;
+    border-radius: 40px;
+     margin-left: 40px;
+}
+
+.source h3{
+    margin-left: 0px;
+    font-size: 20px;
+}
+.source p{
+    width:80%;
+    font-size: 16px;
+    color:rgb(27, 24, 24);
+}
+
+.about-us{
+
+    display: flex;
+    padding:50px;
+    
+    
+}
+.image{
+    margin-left:150px;
+}
+.about1{
+    margin-left: 40px;
+}
+
+.image-about2{
+    margin:-70px 0 0 0;
+    margin-left: 230px;
+}
+
+
+.about1 p{
+    font-size:20px;
+}
+.about1 ul{
+    font-size: 22px;
+    margin-top:30px;
+}
+.about1 h2{
+    font-size: 54px;
+}
+.about1 button{
+    padding:15px;
+    margin-top: 10px;
+    border:2px solid #000;
+    border-radius:30px;
+    width: 13vw;
+    font-size: 18px;
+}
+
+.our-service{
+    background-color: hsla(197, 59%, 84%, 0.623) ;
+    padding:100px 0px;
+}
+
+.our-services h4{
+    margin:0px;
+    text-align: center ;
+    font-size: 20px;
+}
+.our-services h2{
+    margin:0px;
+    text-align:center;
+    font-size: 50px;
+}
+
+.service-idea{
+    padding-top: 70PX;
+    display:flex;
+    justify-content: space-evenly;
+
+    
+}
+.ideas-1{
+padding:24px;
+    height:300px;
+    max-width:300px;
+    background-color: #fff;
+    border-radius:20px;
+}
+
+.ideas-2{
+padding:24px;
+    height:300px;
+    max-width:300px;
+    background-color: #fff;
+    border-radius:20px;
+}
+
+.ideas-3{
+padding:24px;
+    height:300px;
+    max-width:300px;
+    background-color: #fff;
+    border-radius:20px;
+}
+
+.ideas-4{
+padding:24px;
+    height:300px;
+    max-width:300px;
+    background-color: #fff;
+    border-radius:20px;
+}
+.service-idea p{
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.service-idea .image{
+    margin-top: 0PX;
+    margin-left: 0px;
+    border-radius: 20px;
+}
+.our-service button{
+     margin-left: 43%;
+     font-size:18px;
+     margin-top: 50px;
+     border:2px solid gray;
+    border-radius: 30px;
+
+}
+
+.our-project{
+    padding:80px;
+    background-color: hsla(0, 13%, 92%, 0.925);
+}
+
+.projects{
+    text-align: center;
+}
+
+.projects h3{
+    font-size: 25px;
+    margin-right: 50px;
+}
+.project-image{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap:30px;
+   
+}
+
+.project-image img{
+   
+    border-radius:20px;
+}
+
+
+
+
+.our-project button{
+    margin-left:33em;
+    font-size:18px;
+    border:2px solid gray;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+footer{
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    position:sticky;
+    padding: 10px;
+}
+
+
+
+
+
+@media (min-width: 330px) and (max-width: 700px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .navbar-menu-items {
+    flex-direction: column;
+    row-gap: 10px;
+    text-align: center;
+  }
+
+  .button {
+    margin-top: 10px;
+  }
+
+  .outdoor {
+    margin: 40px 20px;
+    text-align: center;
+  }
+
+  .outdoor h1 {
+    font-size: 8vw;
+  }
+
+  .outdoor p {
+    font-size: 18px;
+  }
+
+  .source {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .about-us {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .image {
+    margin-left: 0;
+    text-align: center;
+  }
+.source img{
+    margin-left: 0px;;
+}
+
+.image-about1{
+    height:auto;
+    width: 100%;
+}
+  .image-about2 {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .about1 {
+    margin-left: 0;
+    text-align: center;
+    
+  }
+
+  .about1 h2 {
+    font-size: 30px;
+  }
+
+  .about1 ul {
+    text-align: left;
+    padding-left: 20px;
+  }
+
+  .about1 button{
+    width:132px;
+    height:55px;
+  }
+
+  .service-idea {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .our-service button,
+  .our-project button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .project-image {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1200px) {
+  .navbar {
+    padding: 10px 50px;
+  }
+
+  .navbar-menu-items {
+    column-gap: 20px;
+  }
+
+  .navbar h3{
+    margin-left:0px;
+  }
+  .outdoor {
+        margin-top: 5em;
+    font-size: 100px;
+    font-weight: bolder;
+  }
+
+  .source {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+  }
+
+  .about-us {
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 30px;
+    justify-content: center;
+  }
+
+   .about1 button{
+    width:132px;
+    height:55px;
+  }
+.image {
+    margin-left:0px;
+}
+  .image-about2 {
+    margin-left: 0;
+    margin-top: 20px;
+  
+  }
+
+  .service-idea {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .project-image {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .our-service button,
+  .our-project button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
